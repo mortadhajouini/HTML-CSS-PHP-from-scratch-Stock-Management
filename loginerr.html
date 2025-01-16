@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Stock Management</title>
+	<link rel="stylesheet" href="style5.css">
+	<script language="javascript">
+		function ouvrir(){
+			window.open("signup.html");
+		}
+	</script>
+</head>
+
+<body>
+	<header>
+		<h1>Stock Management</h1> <a href="https://www.asteelflash.com/facility/asteelflash-la-soukra/"><img src="logo.png" class="ast"></a>
+	</header>
+
+	<main>
+		
+		<div class="login-container">
+            <h3 style="text-align: center; color: #333;">Please Enter a Valid Username and Password</h3>
+			<form method="post" name="f" class="login-form" action="loginaction.php">
+				<h2>Login</h2>
+				<label for="username">Username:</label>
+				<input type="text" id="n" name="n" required>
+	
+				<label for="password">Password:</label>
+				<input type="password" id="p" name="p" required>
+	
+				<button type="submit" id="b1">Login</button>
+				<button type="button" onclick="return ouvrir()" id="b2">Sign Up</button>
+			</form>
+		</div>
+
+	</main>
+	<footer>
+		<span id="cc">&copy; 2024 Mortadha Jouini</span>
+	</footer>
+</body>
+
+</html>

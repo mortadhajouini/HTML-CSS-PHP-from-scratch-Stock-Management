@@ -1,0 +1,148 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    background: url('asss.jpg') center / cover no-repeat fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    background: url('logo.png');
+}
+
+header {
+    background-color: #025280;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    opacity: 0.9;
+    
+
+}
+
+nav {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #025280;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.9;
+    height:20px;
+}
+#cc{
+    position: relative;}
+p{
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+
+
+.login-container {
+    background-color: rgba(227, 227, 227, 0.5);
+    width: 30%;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left:33%;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#b1{
+    width: 40%;
+    padding: 10px;
+    background-color: #025280;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left:170px;
+    top: 10px;
+}
+#b2{
+    width: 40%;
+    padding: 10px;
+    background-color: #025280;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left:-117px;
+    top: 10px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #025280;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+#b1:hover {
+    background-color: #2980b9;
+}
+#b2:hover {
+    background-color: #2980b9;
+}
