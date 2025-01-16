@@ -1,9 +1,3 @@
-ock inventory with features like adding, updating, and deleting stock items. Built from scratch using pure HTML, CSS, and PHP, without any frameworks, providing a hands-on experience with web development fundamentals.
-
-README Code:
-markdown
-Copy
-Edit
 # 🗃️ Stock Management Website
 
 A stock management website developed during my 2nd year internship at AsteelFlash. This web application allows users to manage stock inventory, including features for adding, updating, and deleting stock items. Built entirely from scratch using pure HTML, CSS, and PHP, without the use of any frameworks, for a deeper understanding of web development fundamentals.
